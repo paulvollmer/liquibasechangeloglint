@@ -1,0 +1,10 @@
+project_name: liquibasechangeloglint
+builds:
+  - binary: liquibasechangeloglint
+    goos:
+      - darwin
+      - linux
+      - windows
+    goarch:
+      - amd64
+      - 386
